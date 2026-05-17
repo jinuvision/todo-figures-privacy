@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>투두 피규어샵 — 개인정보처리방침</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+          "Pretendard", "Noto Sans KR", sans-serif;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 32px 20px 80px;
+        line-height: 1.6;
+        color: #1a1f2e;
+        background: #fff;
+      }
+      h1 { font-size: 24px; margin-bottom: 4px; }
+      .updated { color: #6b7280; font-size: 13px; margin-bottom: 32px; }
+      h2 { font-size: 17px; margin-top: 32px; padding-top: 12px; border-top: 1px solid #e5e7eb; }
+      table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14px; }
+      th, td { border: 1px solid #e5e7eb; padding: 8px 10px; text-align: left; vertical-align: top; }
+      th { background: #f9fafb; font-weight: 600; }
+      a { color: #2563eb; }
+      ul { padding-left: 20px; }
+      .contact { background: #f9fafb; padding: 14px 16px; border-radius: 8px; margin-top: 12px; }
+      .contact dt { font-weight: 600; margin-top: 6px; }
+      .contact dd { margin: 0 0 0 8px; }
+      @media (prefers-color-scheme: dark) {
+        body { background: #0f1219; color: #e6e8ef; }
+        h2 { border-color: #2a3147; }
+        th { background: #1a1f2e; }
+        th, td { border-color: #2a3147; }
+        .contact { background: #1a1f2e; }
+        .updated { color: #8b92a8; }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>투두 피규어샵 개인정보처리방침</h1>
+    <div class="updated">시행일: 2026-05-17 (v1)</div>
+
+    <p>
+      본 방침은 <b>"투두 피규어샵"</b>(이하 "서비스")의 개인정보 처리에 관한
+      사항을 안내합니다.
+    </p>
+
+    <h2>1. 수집하는 개인정보 항목 및 수집 방법</h2>
+    <p>
+      서비스는 <b>별도의 회원가입 없이</b> Apps in Toss(앱인토스) 환경 안에서
+      동작하며, 이용자로부터 직접 식별정보를 수집하지 않습니다. 다음 정보가
+      자동 또는 간접 방식으로 처리될 수 있습니다.
+    </p>
+    <table>
+      <tr><th>항목</th><th>수집 방식</th><th>보관 위치</th><th>보관 기간</th></tr>
+      <tr><td>투두 목록·완료 기록</td><td>이용자 입력</td><td>단말 내 KV 저장소 (Apps in Toss) 또는 localStorage</td><td>이용자 삭제·앱 제거 시까지</td></tr>
+      <tr><td>캐릭터 레벨·수집 현황</td><td>자동 생성</td><td>동일</td><td>동일</td></tr>
+      <tr><td>출석·연속일 통계</td><td>자동 집계</td><td>동일</td><td>동일</td></tr>
+      <tr><td>광고 시청 이벤트</td><td>Apps in Toss 광고 SDK</td><td>광고 사업자 (Google AdMob, 토스)</td><td>광고 사업자 정책에 따름</td></tr>
+      <tr><td>토스포인트 지급 이력</td><td><code>grantPromotionReward</code> API</td><td>토스 서버</td><td>토스 정책에 따름</td></tr>
+    </table>
+    <p>
+      서비스는 이름·생년월일·연락처·기기 식별자 등 <b>개인 식별 정보를 직접
+      수집하지 않습니다.</b>
+    </p>
+
+    <h2>2. 개인정보 처리 목적</h2>
+    <ul>
+      <li>투두 진행 상태·캐릭터 진척도 저장 (앱 본연 기능)</li>
+      <li>광고 송출 및 광고 보상 지급 (Apps in Toss / Google AdMob 매개)</li>
+      <li>토스포인트 마일스톤 보상 지급 (토스 매개)</li>
+      <li>부정 이용 방지 및 통계적 사용성 개선</li>
+    </ul>
+
+    <h2>3. 제3자 제공 및 처리 위탁</h2>
+    <p>다음 사업자에 의해 일부 정보가 처리될 수 있습니다.</p>
+    <table>
+      <tr><th>수탁자</th><th>위탁 업무</th><th>참고</th></tr>
+      <tr><td>비바리퍼블리카 (토스)</td><td>Apps in Toss 플랫폼 운영, 광고 송출, 토스포인트 지급</td><td><a href="https://toss.im" target="_blank">toss.im</a></td></tr>
+      <tr><td>Google LLC</td><td>AdMob 광고 송출·집계</td><td><a href="https://policies.google.com/privacy" target="_blank">정책</a></td></tr>
+    </table>
+    <p>운영자는 위 사업자에 추가로 양도·판매 행위를 하지 않습니다.</p>
+
+    <h2>4. 개인정보의 파기</h2>
+    <p>
+      이용자가 앱을 삭제하면 단말 내 KV 저장소·localStorage 데이터는 함께
+      삭제됩니다. 광고·포인트 관련 데이터는 수탁자 정책에 따라 보관·파기됩니다.
+    </p>
+
+    <h2>5. 이용자 권리</h2>
+    <ul>
+      <li>앱 내 "삭제" 기능으로 투두·캐릭터 데이터 삭제</li>
+      <li>앱 제거를 통한 전체 데이터 삭제</li>
+      <li>토스 앱 설정 &gt; 광고 개인화 옵트아웃</li>
+      <li>본 방침 문의: 아래 연락처</li>
+    </ul>
+
+    <h2>6. 만 14세 미만 이용자</h2>
+    <p>
+      서비스는 만 14세 미만 이용자의 개인정보를 의도적으로 수집하지 않습니다.
+      법정대리인 동의 없이 만 14세 미만 사용이 확인되면 즉시 처리를 중단합니다.
+    </p>
+
+    <h2>7. 개인정보 보호책임자</h2>
+    <div class="contact">
+      <dl>
+        <dt>책임자</dt><dd>이진우 (Jin-Woo Lee)</dd>
+        <dt>사업자등록번호</dt><dd>(등록 후 추가)</dd>
+        <dt>사업장 주소</dt><dd>경기도 용인시 수지구 성복1로 13</dd>
+        <dt>이메일</dt><dd><a href="mailto:leehc.com@gmail.com">leehc.com@gmail.com</a></dd>
+      </dl>
+    </div>
+
+    <h2>8. 방침 변경</h2>
+    <p>
+      법령·서비스 변경에 따라 본 방침이 개정될 수 있으며, 변경 시 본 페이지를
+      통해 공지합니다.
+    </p>
+    <ul>
+      <li>v1 — 2026-05-17 최초 시행</li>
+    </ul>
+  </body>
+</html>
