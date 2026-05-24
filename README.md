@@ -1,6 +1,6 @@
 # todo-figures-privacy
 
-**투두 피규어샵** (Apps in Toss 미니앱) 개인정보처리방침 호스팅 전용 리포.
+**지누비전** (Apps in Toss 미니앱) 개인정보처리방침 호스팅 전용 리포.
 
 배포 URL: https://jinuvision.github.io/todo-figures-privacy/
 
